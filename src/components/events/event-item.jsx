@@ -22,7 +22,7 @@ export function EventItem(items) {
           <h2>{title}</h2>
           <div className={classes.date}>
             <DateIcon />
-            <time datetime=''>{humanReadableDate}</time>
+            <time>{humanReadableDate}</time>
           </div>
           <div className={classes.address}>
             <AddressIcon />
