@@ -1,0 +1,25 @@
+.alert {
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  width: 90%;
+  max-width: 40rem;
+  background-color: #d5bdfc;
+  color: #38028d;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 6px;
+  animation: alertMessage .8s ease-in-out;
+}
+
+@keyframes alertMessage {
+  0% {
+    transform: translate(0, 50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
